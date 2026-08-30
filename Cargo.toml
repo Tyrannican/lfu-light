@@ -2,6 +2,16 @@
 name = "lfu-light"
 version = "0.1.0"
 edition = "2024"
+authors = ["Graham Keenan <graham.keenan@outlook.com>"]
 
 [dependencies]
 hashbrown = { version = "0.17.1", default-features = false, features = ["default-hasher"] }
+
+[dev-dependencies]
+criterion = { version = "0.8", features = ["html_reports"] }
+rand = "0.10.0"
+rand_distr = "0.6.0"
+
+[[bench]]
+name = "lfu_light"
+harness = false
