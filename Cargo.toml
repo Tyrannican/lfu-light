@@ -9,7 +9,7 @@ readme = "README.md"
 description = "Lightweight Least Frequently Used Cache implementation"
 repository = "https://github.com/Tyrannican/lfu-light"
 
-keywords = ["LFU", "cache"]
+keywords = ["lfu", "cache"]
 categories = ["data-structures"]
 
 [dependencies]
