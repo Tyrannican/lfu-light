@@ -12,6 +12,8 @@ repository = "https://github.com/Tyrannican/lfu-light"
 keywords = ["lfu", "cache"]
 categories = ["data-structures"]
 
+rust-version = "1.85.0" # Hashbrown limited
+
 [dependencies]
 hashbrown = { version = "0.17.1", default-features = false, features = ["default-hasher"] }
 
